@@ -2,3 +2,49 @@ body {
   font-family: 'Muli', sans-serif;
   font-size: 14px;
 }
+
+/* navbar logo ------------------------------------------------------------ */
+.logo-navbar { margin-bottom: 120px; }
+  .logo {
+    position: absolute;
+    top:10px;
+    left: 100px;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 999;
+  }
+    .logo .imglogo {
+      z-index: 999;
+      display: inline-block;
+      float: left;
+      margin-right: 20px;
+    }
+    .logo .s1imgimage {width: 150px;}
+    .logo .txtlogo {display: inline-block;}
+    .logo .txt1 {
+      font-size: 60px;
+      line-height: 60px;
+      font-family: 'bitterbold';
+      text-transform: uppercase;
+      color: #e21b1b;
+      letter-spacing: 10px;
+      text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
+    }
+    .logo .txt1 .c1 { color: #03a421; }
+    .logo .txt1 .c2 { color: #ebebeb; }
+    .logo .txt2 {
+      font-size: 15px;
+      line-height: 20px;
+      font-family: 'bitterregular';
+      text-transform: uppercase;
+      color: #d7c57e;
+      letter-spacing: 2px;
+      text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
+    }
+
+/* navbar menu ------------------------------------------------------------ */
+.navbar {  z-index: 90 !important; }
+.navbar-fixed-top { position: absolute !important;}
+.navbar-nav li a {
+  padding: 25px 35px !important;
+}
