@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-class Index extends React.Component {
+import Navbar from "./components/Navbar";
+
+export default class Index extends React.Component {
   render() {
     return (
-        <div>
-          <h1>IT WORKS!!!</h1>
-        </div>
+      <Navbar />
     );
   }
 }
