@@ -1,0 +1,36 @@
+// .navbar-inverse {
+//     background-color: #000 !important;
+//     border-color: #080808;
+// }
+//
+.navbar {
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 1px 30px;
+    // padding-right: 30px;
+
+}
+
+.navbar-inverse {
+  background-color: #111 !important;
+  // background-color: #535c69 !important;
+  .navbar-nav > {
+    .active > a {
+      color: #fff;
+      background-color: #78808b !important;
+      // padding: 3px 0;
+      &:focus, &:hover {
+        color: #fff;
+        background-color: #78808b !important;
+      }
+    }
+    li > a {
+      color: #fff !important;
+    }
+  }
+}
+
+
+.navbar-toggle {
+  border-color: #f6f6f6 !important;
+}

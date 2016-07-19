@@ -1,0 +1,28 @@
+
+.bg-odd { background: #F2F3F4; }
+
+.column {
+  padding: 10px;
+
+  .column-cell {
+    position: relative;
+    padding: 5px 0;
+  }
+  .btn-delete {
+    // position: absolute;
+    top: 0px;
+    margin-right: 10px;
+    background-color: #fff !important;
+    border: 2px solid #999 !important;
+    border-radius: 25% !important;
+    padding: 1px 10px !important;
+    width: auto;
+    &:hover {
+      background-color: #ccc !important;
+    }
+    &:focus {
+      color: #999;
+    }
+  }
+
+}

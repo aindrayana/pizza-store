@@ -6,10 +6,10 @@ jQuery(function ($) {
 		 * Home image-background
 		/* ---------------------------------------------- */
 
-		$(".screen-height").height($(window).height());
-		$(window).resize(function(){
-			$(".screen-height").height($(window).height());
-		});
+		// $(".screen-height").height($(window).height());
+		// $(window).resize(function(){
+		// 	$(".screen-height").height($(window).height());
+		// });
 
 
 	});

@@ -1,0 +1,14 @@
+@for $i from 1 through 20 {
+  .top-#{2 * $i} {
+    margin-top: #{2 * $i}px;
+  }
+  .bottom-#{2 * $i} {
+    margin-bottom: #{2 * $i}px;
+  }
+  .left-#{2 * $i} {
+    margin-left: #{2 * $i}px;
+  }
+  .right-#{2 * $i} {
+    margin-right: #{2 * $i}px;
+  }
+}

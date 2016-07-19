@@ -1,0 +1,44 @@
+.logo {
+	display: inline-block;
+	left: 30px;
+	position: fixed;
+	text-decoration: none;
+	top:5px;
+	z-index: 999;
+	.imglogo {
+		display: inline-block;
+		float: left;
+		margin-right: 20px;
+		z-index: 999;
+	}
+	.s1imgimage {
+		width: 80px;
+	}
+	.txtlogo {
+		display: inline-block;
+	}
+	.txt1 {
+		color: #e21b1b;
+		font-family: 'bitterbold';
+		font-size: 30px;
+		letter-spacing: 10px;
+		line-height: 25px;
+		text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
+		text-transform: uppercase;
+		.c1 {
+			color: #03a421;
+		}
+		.c2 {
+			color: #ebebeb;
+		}
+	}
+	.txt2 {
+		color: #d7c57e;
+		font-family: 'bitterregular';
+		font-size: 10px;
+		letter-spacing: 2px;
+		line-height: 20px;
+		text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
+		text-transform: uppercase;
+	}
+}

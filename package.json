@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Using React to fetch data from JSON API and populate the data on single page JSON data is pulled from http://localhost:8080/pizza that look like this: ``` [{   \"id\": \"d0765cc5-2085-4867-91f0-2e83365e6d95\",   \"name\": \"Hawaiian Super Supreme\",   \"price\": 9.5,   \"toppings\": [{     \"id\": \"90ae7eac-1e4a-408b-8551-d7ae4c12e9bb\",     \"name\": \"Quesadilla\"   }, {     \"id\": \"0218df7e-1eda-4909-a83f-5187b35ca079\",     \"name\": \"Fried clams\"   }] }] ```",
   "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base src --port 3000 --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
@@ -12,20 +16,23 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
+    "firebase": "^3.1.0",
+    "font-awesome": "^4.6.3",
+    "font-awesome-webpack": "0.0.4",
     "history": "^1.17.0",
     "jquery": "^2.2.1",
+    "less": "^2.6.1",
     "lodash": "^4.6.1",
     "minified": "^1.0.1",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
+    "react-mixin": "^3.0.5",
     "react-paginate": "^0.5.4",
     "react-router": "^1.0.3",
+    "react-select": "^1.0.0-beta13",
+    "reactfire": "^1.0.0",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
-  },
-  "scripts": {
-    "dev": "webpack-dev-server --content-base src --port 3000 --inline --hot",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -36,5 +43,15 @@
   "bugs": {
     "url": "https://github.com/aindrayana/pizza-store/issues"
   },
-  "homepage": "https://github.com/aindrayana/pizza-store#readme"
+  "homepage": "https://github.com/aindrayana/pizza-store#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "less-loader": "^2.2.3",
+    "image-webpack-loader": "^1.8.0",
+    "node-sass": "^3.7.0",
+    "react-hot-loader": "^1.2.8",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1"
+  }
 }

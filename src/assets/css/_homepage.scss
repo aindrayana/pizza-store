@@ -1,0 +1,146 @@
+#home {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  background-color: #222222;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("../images/pizza-slider.jpg");
+  padding: 0;
+  position: relative;
+
+  .intro {
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    color: #ffffff;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+
+    h1 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 60px;
+      font-weight: 800;
+    }
+
+    .ribbon {
+      background-color: #000000;
+      margin-bottom: 40px;
+      padding: 10px 0;
+    }
+  }
+}
+
+.block-section {
+  color: #666666;
+  // color: #ffffff;
+  font-size: 18px;
+  padding: 50px 0;
+
+  .pizza {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  .rows-menu {
+    margin-bottom: 60px;
+  }
+
+  .price {
+    padding-right: 30px;
+  }
+
+  .story {
+    img {
+      width: 100%;
+    }
+  }
+
+  .block-section-header {
+    .ui-title-block {
+      // color: #fdbc2c;
+      color: #C49E60;
+      margin-top: 0;
+      margin-bottom: 32px;
+      font: 400 48px/1.25 'Abril Fatface';
+      text-align: center;
+      .ui-subtitle-block {
+        color: #000;
+        display: block;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-family: 'Muli', sans-serif;
+      }
+    }
+  }
+
+  .block-section-menu {
+    .ui-title-menu {
+      color: #000;
+      margin-bottom: 50px;
+      font-family: 'Fredericka the Great';
+      font-size: 80px;
+      display: block;
+    }
+
+    .rows-menu {
+      .menu-list {
+        display: inline-block;
+        padding-right: 55px;
+        width: 50%;
+        margin-bottom: 30px;
+        .left-menu {
+          float: left;
+          width: 70%;
+          .pizza { font-size: 25px; }
+        }
+        .right-menu {
+          float: right;
+          font-size: 40px;
+        }
+      }
+    }
+
+  }
+
+}
+
+// .pizza-list-item {
+//   border: 1px solid black;
+//   position: relative;
+//   display: inline-block;
+//   width: 25%;
+//   padding-right: 15px;
+//   padding-bottom: 23px;
+//   padding-left: 15px;
+//   color: #151515;
+//   vertical-align: top;
+//   border-radius: 3px;
+//   transition: all 0.3s;
+//   text-align: center;
+//
+//   .pizza-list-header {
+//     color: #fdbc2c;
+//     font-family: 'Abril Fatface';
+//     font-size: 24px;
+//     text-align: center;
+//   }
+//
+//   .pizza-list-desc {
+//     font-size: 12px;
+//   }
+//
+//   .pizza-list-price {
+//     font-family: 'Josefin Sans', sans-serif;
+//     color: #C49E60;
+//     font-weight: 800;
+//   }
+// }
