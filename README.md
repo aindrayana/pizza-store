@@ -7,7 +7,7 @@ REACTjs CRUD sample.
 - Sass
 
 ## to try:
-git clone git@github.com:aindrayana/pizza-store.git
-cd pizza-store
-npm install
-npm run dev
+- git clone git@github.com:aindrayana/pizza-store.git
+- cd pizza-store
+- npm install
+- npm run dev
